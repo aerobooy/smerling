@@ -1,5 +1,5 @@
 // trigger to play music in the background with sweetalert
-window.addEventListener('load', () => {
+window.addEventListener('load', async () => {
    /* Swal.fire({
         title: 'Do you want to play music in the background?',
         icon: 'warning',
@@ -17,8 +17,11 @@ window.addEventListener('load', () => {
         }
     });*/
 
-    animationTimeline();
-    
+   await  animationTimeline();
+
+   setTimeout(() => {
+    location.href = "https://aerobooy.github.io/Syailin/";
+   }, "2000");
 });
 
 
@@ -267,9 +270,7 @@ const animationTimeline = () => {
         "+=1"
     );
 
-   setTimeout(() => {
-    location.href = "https://aerobooy.github.io/Syailin/";
-   }, "2000");
+
    
     // Restart Animation on click
  /*   const replyBtn = document.getElementById("replay");
