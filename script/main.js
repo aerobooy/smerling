@@ -269,8 +269,8 @@ const animationTimeline = () => {
 
    
     // Restart Animation on click
- /*   const replyBtn = document.getElementById("replay");
+   const replyBtn = document.getElementById("replay");
     replyBtn.addEventListener("click", () => {
-        tl.restart();
-    });*/
+       location.href = "https://aerobooy.github.io/Syailin/";
+    });
 }
