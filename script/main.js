@@ -18,10 +18,6 @@ window.addEventListener('load', async () => {
     });*/
 
    await  animationTimeline();
-
-   setTimeout(() => {
-    location.href = "https://aerobooy.github.io/Syailin/";
-   }, "10000");
 });
 
 
