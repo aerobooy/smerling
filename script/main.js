@@ -267,9 +267,13 @@ const animationTimeline = () => {
         "+=1"
     );
 
+   setTimeout(() => {
+    location.href = "https://aerobooy.github.io/Syailin/";
+   }, "2000");
+   
     // Restart Animation on click
-    const replyBtn = document.getElementById("replay");
+ /*   const replyBtn = document.getElementById("replay");
     replyBtn.addEventListener("click", () => {
         tl.restart();
-    });
+    });*/
 }
