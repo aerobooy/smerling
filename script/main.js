@@ -21,7 +21,7 @@ window.addEventListener('load', async () => {
 
    setTimeout(() => {
     location.href = "https://aerobooy.github.io/Syailin/";
-   }, "2000");
+   }, "10000");
 });
 
 
